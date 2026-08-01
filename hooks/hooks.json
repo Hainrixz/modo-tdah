@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/always-on.sh\"",
+            "timeout": 5,
+            "statusMessage": "Cargando modo ADHD (siempre encendido)"
+          }
+        ]
+      }
+    ]
+  }
+}
