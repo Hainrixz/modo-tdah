@@ -1,12 +1,12 @@
 {
-  "name": "modo-adhd",
+  "name": "modo-tdah",
   "version": "1.0.0",
   "description": "Le cambia la forma a la respuesta: la acción primero, pasos numerados, sin preámbulo, sin recap y sin despedida.",
   "author": {
     "name": "Enrique Rocha",
     "url": "https://github.com/Hainrixz"
   },
-  "homepage": "https://tododeia.com/community/modo-adhd-claude",
-  "repository": "https://github.com/Hainrixz/modo-adhd",
+  "homepage": "https://tododeia.com/community/modo-tdah-claude",
+  "repository": "https://github.com/Hainrixz/modo-tdah",
   "license": "MIT"
 }

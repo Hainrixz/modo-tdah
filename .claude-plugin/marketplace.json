@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
-  "name": "modo-adhd",
+  "name": "modo-tdah",
   "description": "Versión en español de i-have-adhd: 10 reglas de forma de salida para que la respuesta empiece por la acción y termine cuando termina.",
   "owner": {
     "name": "Enrique Rocha",
@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "modo-adhd",
+      "name": "modo-tdah",
       "description": "Le cambia la forma a la respuesta: la acción primero, pasos numerados, sin preámbulo, sin recap y sin despedida.",
       "source": "./",
       "category": "productivity"

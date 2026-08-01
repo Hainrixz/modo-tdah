@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
-# Hook de SessionStart: inyecta el ruleset completo de modo-adhd cuando el usuario
-# se dio de alta creando $CLAUDE_CONFIG_DIR/.modo-adhd-always (por defecto ~/.claude).
+# Hook de SessionStart: inyecta el ruleset completo de modo-tdah cuando el usuario
+# se dio de alta creando $CLAUDE_CONFIG_DIR/.modo-tdah-always (por defecto ~/.claude).
 # Nunca bloquea el arranque de sesión: cualquier fallo sale con 0.
 #
 # POSIX sh puro para que corra en cualquier lado donde Claude Code ejecute un hook
@@ -8,7 +8,7 @@
 # Node en el PATH.
 
 claude_dir="${CLAUDE_CONFIG_DIR:-$HOME/.claude}"
-flag_path="$claude_dir/.modo-adhd-always"
+flag_path="$claude_dir/.modo-tdah-always"
 
 # Solo dispara si el usuario se dio de alta.
 [ -f "$flag_path" ] || exit 0
@@ -16,7 +16,7 @@ flag_path="$claude_dir/.modo-adhd-always"
 # $0 es la ruta absoluta del script que Claude Code sustituye en hooks.json, así que
 # resolvemos SKILL.md relativo a ella en vez de confiar en una variable de entorno.
 script_dir=$(dirname -- "$0")
-skill_path="$script_dir/../skills/modo-adhd/SKILL.md"
+skill_path="$script_dir/../skills/modo-tdah/SKILL.md"
 [ -f "$skill_path" ] || exit 0
 
 # Quita el bloque de frontmatter YAML del inicio (--- ... --- al principio del archivo).

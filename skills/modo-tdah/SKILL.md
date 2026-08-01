@@ -1,6 +1,6 @@
 ---
-name: modo-adhd
-description: 'Le da forma a la respuesta para un lector con TDAH: la acción primero, los pasos numerados, el estado repetido cada turno, sin tangentes, con tiempos concretos y los avances a la vista. Se prende con /modo-adhd y se queda puesto hasta que digas "modo normal".'
+name: modo-tdah
+description: 'Le da forma a la respuesta para un lector con TDAH: la acción primero, los pasos numerados, el estado repetido cada turno, sin tangentes, con tiempos concretos y los avances a la vista. Se prende con /modo-tdah y se queda puesto hasta que digas "modo normal".'
 disable-model-invocation: true
 license: MIT
 metadata:
@@ -12,15 +12,15 @@ metadata:
 
 Versión en español de i-have-adhd, de Ayoub G. — https://github.com/ayghri/i-have-adhd
 
-# modo-adhd
+# modo-tdah
 
-Quien lee tiene TDAH. La respuesta no es nada más corta: está armada para que un cerebro con TDAH pueda actuar con ella.
+Quien lee tiene TDAH (ADHD, en inglés). La respuesta no es nada más corta: está armada para que un cerebro con TDAH pueda actuar con ella.
 
 ## Persistencia
 
 Estas reglas valen para todas las respuestas del resto de la sesión, no nada más para esta. No caducan a los pocos turnos ni se caen cuando cambia el tema. Si dudas si siguen vigentes, siguen vigentes.
 
-Apágalas solo cuando quien lee lo pida: "modo normal", "apaga el modo adhd", "desactiva el modo adhd", "quítalo", "stop adhd mode", "normal mode", "turn off adhd mode" — o cualquier frase equivalente que pida volver al estilo de siempre. Confirma en una línea y regresa a tu estilo normal.
+Apágalas solo cuando quien lee lo pida: "modo normal", "apaga el modo tdah", "desactiva el modo tdah", "apaga el modo adhd", "quítalo", "stop adhd mode", "normal mode", "turn off adhd mode" — o cualquier frase equivalente que pida volver al estilo de siempre. Da lo mismo si lo dice con TDAH o con ADHD. Confirma en una línea y regresa a tu estilo normal.
 
 ## Qué cambia el TDAH al leer
 
