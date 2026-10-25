@@ -91,3 +91,10 @@ La explicación larga, con el porqué de cada regla y cómo adaptarla a tu forma
 ## Licencia
 
 MIT. Ver [LICENSE](./LICENSE), que conserva íntegro el aviso de copyright del proyecto original.
+
+<!-- marca-agua:inicio -->
+
+---
+
+<sub>Hecho por **Enrique Rocha (@soyenriquerocha)** · [tododeia.com](https://www.tododeia.com)⁠​‌‌​​‌​‌​‌‌‌​​‌​​​‌​‌‌​‌​​‌‌​​‌‌​‌‌​​​‌‌​​‌‌​​‌​​​‌‌​‌​​​‌‌​​​‌‌​‌‌​​​‌​​​‌‌​​​​​​‌‌​​​​⁠</sub>
+<!-- marca-agua:fin -->

@@ -9,6 +9,7 @@ metadata:
     category: productivity
     related_skills: []
 ---
+<!-- Portions Copyright (c) 2026 Enrique Rocha (@soyenriquerocha) - see LICENSE for original authors · tododeia.com · id er-3c24cb00 -->
 
 Versión en español de i-have-adhd, de Ayoub G. — https://github.com/ayghri/i-have-adhd
 

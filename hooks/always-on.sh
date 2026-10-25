@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
+# Portions Copyright (c) 2026 Enrique Rocha (@soyenriquerocha) - see LICENSE for original authors
+# SPDX-License-Identifier: MIT
+# id: er-3c24cb00
 # Hook de SessionStart: inyecta el ruleset completo de modo-tdah cuando el usuario
 # se dio de alta creando $CLAUDE_CONFIG_DIR/.modo-tdah-always (por defecto ~/.claude).
 # Nunca bloquea el arranque de sesión: cualquier fallo sale con 0.
